@@ -1,0 +1,1 @@
+Estas excepciones responden a un programa de una cocina donde se quiere preparar un platillo y no existe algun elemento necesario para prepararlo.
