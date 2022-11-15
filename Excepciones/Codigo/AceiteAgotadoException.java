@@ -4,13 +4,13 @@ package Excepciones.Codigo;
  *
  * @author Kevin
  */
-public class AceiteAgotado extends IngredienteAgotado{
-    public AceiteAgotado(){
+public class AceiteAgotadoException extends IngredienteAgotadoException{
+    public AceiteAgotadoException(){
         //mensaje por defecto
         super("No alcanza el aceite para preparar el platillo");
     }
     
-    public AceiteAgotado(String mensaje){
+    public AceiteAgotadoException(String mensaje){
         //personalizado
         super(mensaje);
     }

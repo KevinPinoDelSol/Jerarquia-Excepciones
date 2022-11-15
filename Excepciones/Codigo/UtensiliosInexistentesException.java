@@ -4,13 +4,13 @@ package Excepciones.Codigo;
  *
  * @author Kevin
  */
-public class UtensiliosInexistentes extends ElementoAgotado{
-        public UtensiliosInexistentes(){
+public class UtensiliosInexistentesException extends ElementoAgotadoException{
+        public UtensiliosInexistentesException(){
         //mensaje por defecto
         super("No hay utensilios para preparar este platillo");
     }
     
-    public UtensiliosInexistentes(String mensaje){
+    public UtensiliosInexistentesException(String mensaje){
         //personalizado
         super(mensaje);
     }

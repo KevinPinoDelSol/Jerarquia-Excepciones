@@ -4,13 +4,13 @@ package Excepciones.Codigo;
  *
  * @author Kevin
  */
-public class IngredienteAgotado extends ElementoAgotado {
+public class IngredienteAgotadoException extends ElementoAgotadoException {
     
-    public IngredienteAgotado(){
+    public IngredienteAgotadoException(){
         //mensaje por defecto
         super("No alcanza un ingrediente para preaparar el platillo");
     }
-    public IngredienteAgotado(String mensaje){
+    public IngredienteAgotadoException(String mensaje){
         //mensaje persializado
         super(mensaje);
     }

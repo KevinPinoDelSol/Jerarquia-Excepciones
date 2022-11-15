@@ -4,13 +4,13 @@ package Excepciones.Codigo;
  *
  * @author Kevin
  */
-public class SartenInexistente extends UtensiliosInexistentes {
-        public SartenInexistente(){
+public class SartenInexistenteException extends UtensiliosInexistentesException {
+        public SartenInexistenteException(){
         //mensaje por defecto
         super("Es necesario un sarten para preparar este platillo");
     }
     
-    public SartenInexistente(String mensaje){
+    public SartenInexistenteException(String mensaje){
         //personalizado
         super(mensaje);
     }
